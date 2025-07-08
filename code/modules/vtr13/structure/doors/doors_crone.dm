@@ -7,10 +7,13 @@
 	lockpick_difficulty = 2
 
 /obj/structure/vampdoor/vtr_crone/basement
-	icon_state = "old-1"
-	baseicon = "old"
+	icon_state = "ship-1"
+	baseicon = "ship"
 	burnable = FALSE
 	lockpick_difficulty = 6 //crones have had a lot of time to make this boat harder to crack than most places
+
+/obj/structure/vampdoor/vtr_crone/basement/unlocked
+	locked = FALSE
 
 /obj/structure/vampdoor/vtr_crone/cells
 	icon_state = "prison-1"
@@ -19,8 +22,10 @@
 	lockpick_difficulty = 6
 
 /obj/structure/vampdoor/vtr_crone/office
-	icon_state = "old-1"
-	baseicon = "old"
+	icon_state = "ship-1"
+	baseicon = "ship"
 	burnable = FALSE
 	lock_id = "heirophant"
 	lockpick_difficulty = 5
+
+
